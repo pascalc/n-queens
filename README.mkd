@@ -7,26 +7,24 @@ The N-queens puzzle is the problem of placing N chess queens on an N×N chessboa
 The puzzle is solved as a CSP problem, using backtracking search. Forward checking is used to limit the size of the search space. The next unassigned variable and ordering of domain values are selected at random.
 
 # Usage #
-`./nqueens.rb <N>`
+	./nqueens.rb <N>
 
 where N is the number of queens to place on a NxN chessboard
 
 # A Solution #
 
-<code>
-----------------------------------------------------------------------
-Solving the 8-queens problem...
-----------------------------------------------------------------------
-----------------------------------------------------------------------
-Solution: {0=>4, 5=>2, 3=>5, 6=>0, 7=>6, 4=>7, 1=>1, 2=>3}
-Found a solution in 0.0 seconds
-----------------------------------------------------------------------
-0 0 0 0 0 0 X 0 
-0 X 0 0 0 0 0 0 
-0 0 0 0 0 X 0 0 
-0 0 X 0 0 0 0 0 
-X 0 0 0 0 0 0 0 
-0 0 0 X 0 0 0 0 
-0 0 0 0 0 0 0 X 
-0 0 0 0 X 0 0 0 
-</code>
+	----------------------------------------------------------------------
+    Solving the 8-queens problem...
+	----------------------------------------------------------------------
+	----------------------------------------------------------------------
+	Solution: {0=>4, 5=>2, 3=>5, 6=>0, 7=>6, 4=>7, 1=>1, 2=>3}
+	Found a solution in 0.0 seconds
+	----------------------------------------------------------------------
+	0 0 0 0 0 0 X 0 
+	0 X 0 0 0 0 0 0 
+	0 0 0 0 0 X 0 0 
+	0 0 X 0 0 0 0 0 
+	X 0 0 0 0 0 0 0 
+	0 0 0 X 0 0 0 0 
+	0 0 0 0 0 0 0 X 
+	0 0 0 0 X 0 0 0 

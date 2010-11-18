@@ -67,7 +67,7 @@ def backtrack(curr_assignment,curr_domains)
 	var = select_unassigned_variable(curr_assignment,curr_domains)
 	debug "Considering queen #{var}:"
 	
-	curr_domains[var].each do |value|
+	curr_domains[var].shuffle.each do |value|
 		# Add value to assignment
 		new_assignment = curr_assignment.dup
 		new_assignment[var] = value
